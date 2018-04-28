@@ -18,7 +18,30 @@
                     </td>
                 </tr>
                 <tr>
-
+                    <td style="text-align:center; width:50%">Login ID</td>
+                    <td style="width: 50px;">
+                        <asp:TextBox ID="txt_LoginID" runat="server"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;width:50%;">Password</td>
+                    <td style="width:50%;">
+                        <asp:TextBox ID="txt_Password" runat="server" TextMode="Password"></asp:TextBox>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:center; width:50%;">
+                        &nbsp;
+                    </td>
+                    <td style="width:50%;">
+                        <asp:Button ID="btn_Login" runat="server" Text="Login" OnClick="btn_LoginClick" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:center;" colspan="2">
+                        <hr />
+                        <asp:Label ID="lbl_Alert" runat="server" Font-Names="Aharon1" ForeColor="Red"></asp:Label>
+                    </td>
                 </tr>
             </table>
 
