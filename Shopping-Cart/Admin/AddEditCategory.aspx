@@ -17,7 +17,7 @@
         <tr>
              <td style="width:50%; padding-left:100px; text-align:left;"> &nbsp;</td>
             <td style="width:50%;  text-align:left;">
-                <asp:Button ID="btnSubmit" runat="server" Text="Submit" Width="100px"" OnClick="btnSubmit_Click"/>
+                <asp:Button ID="btnSubmit" runat="server" Text="Submit" Width="100px" OnClick="btnSubmit_Click"/>
             </td>
         </tr>
         <tr>

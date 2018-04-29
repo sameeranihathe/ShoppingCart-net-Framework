@@ -11,4 +11,14 @@ public partial class Admin_AddEditCategory : System.Web.UI.Page
     {
 
     }
+    
+
+    protected void btnSubmit_Click(object sender, EventArgs e)
+    {
+        //ShoppingCart k = new ShoppingCart { CategoryName = txtCategoryName.Text };
+
+        //k.AddNewCategory();
+        //txtCategoryName.Text = string.Empty;
+        //Response.Redirect("~/Admin/AddNewProducts.aspx");
+    }
 }
