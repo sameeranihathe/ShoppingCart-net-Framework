@@ -19,14 +19,14 @@
                 </tr>
                 <tr>
                     <td style="text-align:center; width:50%">Login ID</td>
-                    <td style="width: 50px;">
-                        <asp:TextBox ID="txt_LoginID" runat="server"></asp:TextBox>
+                    <td style="width: 50px; text-align:center;">
+                        <asp:TextBox ID="txt_LoginID" runat="server" style="margin-left: 15px" Width="183px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td style="text-align: center;width:50%;">Password</td>
-                    <td style="width:50%;">
-                        <asp:TextBox ID="txt_Password" runat="server" TextMode="Password"></asp:TextBox>
+                    <td style="width:50%; text-align:center;">
+                        <asp:TextBox ID="txt_Password" runat="server" TextMode="Password" style="margin-left: 0px;" Width="183px"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
